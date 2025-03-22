@@ -13,6 +13,7 @@ Welcome to the Flower Delivery Website! This platform allows users to order beau
 - [Environment Variables](#environment-variables)
 - [Contributing](#contributing)
 - [License](#license)
+- [Learn more about my flower delivery app backend](#Learn-more-about-my-flower-delivery-app-backend)
 - [Author(s)](#authors)
 
 ## Introduction
@@ -58,11 +59,11 @@ In the project directory, you can run:
 Create a .env file in the root directory.
 
 Add the following variables:
-PORT=5000
+PORTNUMBER
 MONGODB_URI=your-mongodb-atlas-uri
 
 ## API Endpoints
-Base URL: http://localhost:5000/api
+Base URL: http://localhost:PORTNUMBER/api
 Get All Flowers: GET /flowers
 
 -Add a Flower: POST /flowers
@@ -91,11 +92,15 @@ We welcome contributions! To contribute:
 ## Licenses
 This project is licensed under the MIT Licenses - See the [LICENSE](LICENSE) file for more details.
 
+## Learn more about my flower delivery app backend
+Watch my loom video: [video](https://www.loom.com/share/75f54f43d84345a685dca43cd7d1234a?sid=89028bcf-1b97-49e6-aa86-c824dd815f25)
+
 ## Author(s)
 If you have any questions or need further assistance, feel free to reach out:
 - **Name:** Fauziyya Nura Ahmed
 - **Email:** fauziyyanuraahmad@gmail.com
 - **GitHub:** https://github.com/fauziyyanura
+- **Website:** https://flower-delivery-web.onrender.com
 
 
 Thank you for Visiting the Flower delivery Website Repository. We hope you find it useful and enjoy contributing to the project.
