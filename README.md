@@ -63,18 +63,19 @@ PORTNUMBER
 MONGODB_URI=your-mongodb-atlas-uri
 
 ## API Endpoints
-Base URL: http://localhost:PORTNUMBER/api
+Base URL: http://localhost:5000/api
+
 Get All Flowers: GET /flowers
+http://localhost:5000/api/flowers
 
 -Add a Flower: POST /flowers
+http://localhost:5000/api/flowers
 
--Body (form-data):
+-PUT Update Flower: URL:
+http://localhost:5000/api/flowers/:id
 
--image (file): Flower image
-
--Additional fields (e.g., name, price, category)
-
--Delete a Flower: DELETE /flowers/:id
+-Delete a Flower: 
+URL: http://localhost:5000/api/flowers/:id
 
 ## Contributing
 We welcome contributions! To contribute:
