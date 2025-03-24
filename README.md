@@ -71,8 +71,8 @@ http://localhost:5000/api/flowers
 -Add a Flower: POST /flowers
 http://localhost:5000/api/flowers
 
--PUT Update Flower: URL:
-http://localhost:5000/api/flowers/:id
+-PUT Update Flower: 
+URL: http://localhost:5000/api/flowers/:id
 
 -Delete a Flower: 
 URL: http://localhost:5000/api/flowers/:id
@@ -104,6 +104,6 @@ If you have any questions or need further assistance, feel free to reach out:
 - **Website:** https://flower-delivery-web.onrender.com
 
 
-Thank you for Visiting the Flower delivery Website Repository. We hope you find it useful and enjoy contributing to the project.
+Thank you for Visiting the Flower delivery Website Repository. I hope you find it useful and enjoy contributing to the project.
 
 
