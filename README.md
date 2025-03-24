@@ -68,6 +68,8 @@ Get All Flowers: GET /flowers
 
 -Add a Flower: POST /flowers
 
+-Update flower: Update /flowers
+
 -Body (form-data):
 
 -image (file): Flower image
