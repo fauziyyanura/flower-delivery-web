@@ -3,6 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const flowerRoutes = require("./routes/flowerRoutes");
+const userRoutes = require("./routes/userRoutes");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -34,6 +35,7 @@ app.get("/", (req, res) => {
 
 // ✅ API Routes
 app.use("/api/flowers", flowerRoutes);
+app.use("/api/users", userRoutes);
 
 
 app.use((req, res, next) => {
