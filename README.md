@@ -1,1 +1,109 @@
-# flower-delivery-web
+# flower-delivery-website
+
+Welcome to the Flower Delivery Website! This platform allows users to order beautiful flowers for delivery, track their orders, and enjoy a seamless shopping experience. Whether it's for a special occasion or just to brighten someone's day, this website has you covered.
+
+## Table of Contents
+- [Project Name](#Project-Name)
+- [Table of Contents](#Table-of-Contents)
+- [Introduction](#Introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [API Endpoints](#api-endpoints)
+- [Environment Variables](#environment-variables)
+- [Contributing](#contributing)
+- [License](#license)
+- [Learn more about my flower delivery app backend](#Learn-more-about-my-flower-delivery-app-backend)
+- [Author(s)](#authors)
+
+## Introduction
+#  Flower Delivery Website
+
+Welcome to the **Flower Delivery Website**, your go-to platform for sending love, joy, and beauty through flowers! This project is designed to make flower delivery effortless and delightful, whether you're brightening someone's day, celebrating a milestone, or expressing your feelings. With a user-friendly interface and a robust backend, this website ensures a seamless experience for both customers and administrators.
+
+
+## Features
+- **Browse Flowers**: View a catalog of flower arrangements with prices and details.
+- **Search Functionality**: Find flowers based on categories, occasions, or custom keywords.
+- **Add to Cart**: Simple and secure shopping cart feature.
+- **Order Tracking**: Track the status of your flower orders in real-time.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop users.
+
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript (or React)
+- **Backend**: Node.js with Express.js
+- **Database**: MongoDB (hosted on MongoDB Atlas)
+- **File Uploads**: Multer for handling image uploads
+- **Environment Management**: dotenv
+- **Cross-Origin Requests**: CORS
+
+## Setup Instructions
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/fauziyyanura/flower-delivery-website.git
+
+   ```
+
+2. **2\. **Navigate to the Project Directory:**
+
+```sh
+cd flower-delivery-website
+
+```
+In the project directory, you can run:
+
+### `node server.js`
+
+
+3. **Set Up Environments Variables**
+Create a .env file in the root directory.
+
+Add the following variables:
+PORTNUMBER
+MONGODB_URI=your-mongodb-atlas-uri
+
+## API Endpoints
+Base URL: http://localhost:5000/api
+
+Get All Flowers: GET /flowers
+http://localhost:5000/api/flowers
+
+-Add a Flower: POST /flowers
+http://localhost:5000/api/flowers
+
+-PUT Update Flower: 
+URL: http://localhost:5000/api/flowers/:id
+
+-Delete a Flower: 
+URL: http://localhost:5000/api/flowers/:id
+
+## Contributing
+We welcome contributions! To contribute:
+
+-Fork the repository.
+
+-Create a new branch: git checkout -b feature-name.
+
+-Make your changes and commit: git commit -m "Add feature-name".
+
+-Push the branch: git push origin feature-name.
+
+-Create a pull request.
+
+## Licenses
+This project is licensed under the MIT Licenses - See the [LICENSE](LICENSE) file for more details.
+
+## Learn more about my flower delivery app backend
+Watch my loom video: [video](https://www.loom.com/share/75f54f43d84345a685dca43cd7d1234a?sid=89028bcf-1b97-49e6-aa86-c824dd815f25)
+
+## Author(s)
+If you have any questions or need further assistance, feel free to reach out:
+- **Name:** Fauziyya Nura Ahmed
+- **Email:** fauziyyanuraahmad@gmail.com
+- **GitHub:** https://github.com/fauziyyanura
+- **Website:** https://flower-delivery-web.onrender.com
+
+
+Thank you for Visiting the Flower delivery Website Repository. I hope you find it useful and enjoy contributing to the project.
+
+
